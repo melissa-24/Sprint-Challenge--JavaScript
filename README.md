@@ -85,3 +85,30 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+
+
+Questions:
+
+1. Describe the biggest difference between `.forEach` & `.map`.
+
+        A. .map returns a whole new array where forEAch will returns undefined
+
+2. What is the difference between a function and a method?
+
+        A. Both are sets of instructions but a method is assoicated with an object
+
+3. What is closure?
+
+        A. A function bundled together with references to its surrounding state
+
+4. Describe the four rules of the 'this' keyword.
+
+        A.  #1 - If new is used it creates a new object
+            #2 - If apply, call, or bind are used to call a function, this inside the function is the object that is passed in as the argument.
+            #3 - If a function is called as a method — like dot notation is used — this is the object that the function is a property of. 
+            #4 - If a function is invoked, and no other rules apply, this is the global object
+
+5. Why do we need super() in an extended class?
+
+        A. So that we can call functions on the parent of the object.
